@@ -3,7 +3,7 @@
 ### Start with creating a Resource Group
 
 ```
-az group create --name learn-azure-cli --location eastus
+az group create --name learn-azure-cli --location ukwest
 ```
 
 ### Set the Resource Group as default (Optional)
