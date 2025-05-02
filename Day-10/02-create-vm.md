@@ -26,6 +26,12 @@ az vm create \
   --verbose
 ```
 
+### If using Higher Azure cli version (2.71.0), Create VM
+```
+az vm create -n MyVm -g learn-azure-cli  --image Ubuntu2204 --admin-username temi-makinde
+
+```
+
 ### Delete the Resource Group to delete all the resources
 
 ```
