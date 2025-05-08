@@ -71,5 +71,17 @@ add inbound rule, add destination port to the port copied earlier
 now go to the browser and enter the external IP: port copied earlier and see argoCD UI  
 20.55.202.97:31198
 
+## Setup the argoCD
+Go to settings and connect repo
+https, get the repo url for https (the one for git clone)
 
+Get access token from azure devops,
+set up a new one and give read permission
+copy the token 
+
+configure the repository url as follows
+
+https://tokenCopied@repo-url
+
+it should be connected now
 
