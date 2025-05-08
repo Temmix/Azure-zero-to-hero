@@ -85,3 +85,7 @@ https://tokenCopied@repo-url
 
 it should be connected now
 
+## Configure the ArgoCD application
+Go to the application section of argoCD
+Create a new application, make it automatic and fill other information.
+
