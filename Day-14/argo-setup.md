@@ -89,3 +89,14 @@ it should be connected now
 Go to the application section of argoCD
 Create a new application, make it automatic and fill other information.
 
+## Update argocd to always spin up in 10 seconds
+```
+kubectl edit cm argocd-cm -n argocd
+```
+Add the following to the bottom of the file configmap/argocd-cm
+```
+data:
+  timeout.reconciliation: 10s
+```
+
+
