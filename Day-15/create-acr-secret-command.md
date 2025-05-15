@@ -7,3 +7,11 @@ kubectl create secret docker-registry <secret-name> \
     --docker-username=<service-principal-ID> \
     --docker-password=<service-principal-password>
 ```
+
+```
+kubectl create secret docker-registry acr-secret \
+    --namespace default \
+    --docker-server=votingappcontainerx.azurecr.io \
+    --docker-username=votingappcontainerx \
+    --docker-password=mCJayjsdjkfnenjloaulhenrajdgfhjasda90
+```
