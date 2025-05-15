@@ -37,7 +37,7 @@ c25rT3dzRVpKOElYdm9OdA==      , admin
 
 decode the secret to base 64
 ```
-echo paswordText | base64 —decode
+echo paswordText | base64 —-decode
 ```
 
 copy the password somewhere snkOwsEZJ8IXvoNt  , username is admin
